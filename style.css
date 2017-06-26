@@ -1,22 +1,24 @@
-html {
-
-	margin:0;
-	padding:0;
-}
 #grid h1 {
   position:relative;
   left: 450px;
   width: 10em;
+  margin: 0px;
 }
 #insideGrid {
 	position: relative;
-	left:360px;
+	left:365px;
 	border:solid;
 	border-radius: 20px;
+	background-color: white;
 }
 #clear {
 	position: relative;
 	left: 550px;
 	top:20px;
 	height: 25px;
+}
+
+.pixel {
+	margin: 0;
+	padding: 0;
 }

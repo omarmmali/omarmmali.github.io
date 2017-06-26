@@ -1,14 +1,14 @@
 $(document).ready(function() {
   var row = "<tr>"
-  for (var i = 0; i < 16; i++) {
+  for (var i = 0; i < 32; i++) {
     row += "<td><div class = 'pixel'></div></td>"
   }
   row += "</tr>";
-  for (var i = 0; i < 16; i++) {
+  for (var i = 0; i < 32; i++) {
     $("#insideGrid").append(row);
   }
-  $(".pixel").height("25px");
-  $(".pixel").width("25px");
+  $(".pixel").height("10px");
+  $(".pixel").width("10px");
 
   $(".pixel").hover(function() {
     $(this).css("background", "black");
