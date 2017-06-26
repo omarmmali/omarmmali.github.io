@@ -1,0 +1,22 @@
+html {
+
+	margin:0;
+	padding:0;
+}
+#grid h1 {
+  position:relative;
+  left: 450px;
+  width: 10em;
+}
+#insideGrid {
+	position: relative;
+	left:360px;
+	border:solid;
+	border-radius: 20px;
+}
+#clear {
+	position: relative;
+	left: 550px;
+	top:20px;
+	height: 25px;
+}
