@@ -13,7 +13,14 @@
 }
 #clear {
 	position: relative;
-	left: 550px;
+	left: 400px;
+	top:20px;
+	height: 25px;
+}
+
+#eraser {
+	position: relative;
+	left: 630px;
 	top:20px;
 	height: 25px;
 }
